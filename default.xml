@@ -37,6 +37,18 @@
 
   <!--
     ================================================================
+    INCLUDES: Device Specific Files.
+    ================================================================
+    This will download Device Specific Files
+    ================================================================
+  -->
+  <include name="snippets/Spacewar.xml" />
+  <include name="snippets/pixel.xml" />
+
+
+
+  <!--
+    ================================================================
     INCLUDES: Import other manifest files.
     ================================================================
     This keeps the main file clean and organizes projects logically.
@@ -44,7 +56,7 @@
     ================================================================
   -->
   <include name="snippets/core.xml" />
-  <include name="snippets/device.xml" />
+  <include name="snippets/lineage.xml" />
   <include name="snippets/removals.xml" />
 
 </manifest>
