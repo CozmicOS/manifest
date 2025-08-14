@@ -11,7 +11,7 @@
   -->
 
   <!-- Example: Remove the stock AOSP Settings app -->
-  <remove-project name="platform/packages/apps/Settings" />
+  <!-- <remove-project name="platform/packages/apps/Settings" />  -->
 
   <!--
     Then, you would add your own forked Settings app project.
