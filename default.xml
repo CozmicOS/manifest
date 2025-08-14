@@ -31,7 +31,7 @@
     by default, unless specified otherwise in the project tag.
     ================================================================
   -->
-  <default remote="cozmicos"
+  <default remote="CozmicOS"
            revision="a15"
            sync-j="4" />
 
