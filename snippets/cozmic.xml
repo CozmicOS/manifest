@@ -3,5 +3,8 @@
 
   <!-- CozmicOS additions -->
   <project path="packages/apps/Settings" remote="github" name="platform_packages_apps_Settings" />
+  <project path="packages/apps/ThemePicker" remote="github" name="platform_packages_apps_ThemePicker" />
+  <project path="frameworks/base" remote="github" name="platform_frameworks_base" />
+  <project path="system/sepolicy" remote="github" name="platform_system_sepolicy" />
 
 </manifest>
