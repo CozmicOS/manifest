@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- CozmicOS additions -->
+  <project path="packages/apps/Settings" remote="github" name="platform_packages_apps_Settings" />
+
+</manifest>
