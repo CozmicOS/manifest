@@ -1,1 +1,16 @@
-# manifest
+CozmicOS
+===========
+
+Getting started
+---------------
+
+To get started with Android/CozmicOS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
+
+To initialize your local repository using the LineageOS trees, use a command like this:
+```
+repo init -u https://github.com/CozmicOS/platform_manifest.git -b main --git-lfs
+```
+Then to sync up:
+```
+repo sync
+```
