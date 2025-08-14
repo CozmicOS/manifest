@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Device Tree -->
+  <project path="device/nothing/Spacewar" remote="github" name="android_device_nothing_Spacewar" />
+
+  <!-- Kernel Files -->
+  <project path="kernel/nothing/sm7325" remote="github" name="android_kernel_nothing_sm7325" />
+  
+  <!-- Hardware Files -->
+  <project path="hardware/nothing" remote="github" name="android_hardware_nothing" />
+
+  <!-- Vendor blobs  -->
+  <project path="vendor/nothing/Spacewar" remote="github" name="proprietary_vendor_nothing_Spacewar" />
+
+</manifest>
