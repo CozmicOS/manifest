@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!--
+    ================================================================
+    REMOTES: Define where to fetch the code from.
+    ================================================================
+    'myos' -> Your personal GitHub organization for your custom code.
+    'aosp' -> The official Android Open Source Project Git repos.
+    'lineage' -> An example for pulling directly from LineageOS.
+    ================================================================
+  -->
+  <remote name="cozmicos"
+          fetch="https://github.com/CozmicOS"
+          revision="main" />
+
+  <remote name="aosp"
+          fetch="https://android.googlesource.com/"
+          review="https://android-review.googlesource.com/"
+          revision="refs/tags/android-15.0.0_r36" />
+
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS"
+          revision="lineage-22.2" />
+
+  <!--
+    ================================================================
+    DEFAULTS: Default settings for all projects.
+    ================================================================
+    All projects will use the 'cozmicos' remote and the 'main' branch
+    by default, unless specified otherwise in the project tag.
+    ================================================================
+  -->
+  <default remote="cozmicos"
+           revision="main"
+           sync-j="4" />
+
+  <!--
+    ================================================================
+    INCLUDES: Import other manifest files.
+    ================================================================
+    This keeps the main file clean and organizes projects logically.
+    The order matters, as later files can override earlier ones.
+    ================================================================
+  -->
+  <include name="snippets/core.xml" />
+  <include name="snippets/device.xml" />
+  <include name="snippets/removals.xml" />
+
+</manifest>
