@@ -11,7 +11,11 @@
   -->
 
   <!-- Example: Remove the stock AOSP Settings app -->
-  <!-- <remove-project name="platform/packages/apps/Settings" />  -->
+  <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="android_packages_apps_ThemePicker" />
+  <remove-project name="android_packages_apps_Settings" />
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/system/sepolicy" />
 
   <!--
     Then, you would add your own forked Settings app project.
