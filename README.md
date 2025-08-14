@@ -12,5 +12,5 @@ repo init -u https://github.com/CozmicOS/platform_manifest.git -b a15 --git-lfs
 ```
 Then to sync up:
 ```
-repo sync
+repo sync -j$(nproc)
 ```
