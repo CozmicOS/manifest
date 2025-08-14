@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!--
+    ================================================================
+    AOSP CORE PROJECTS
+    ================================================================
+    These are fundamental parts of Android. We are telling repo
+    to fetch them from the 'aosp' remote we defined earlier.
+    The 'name' is the path on the AOSP server.
+    The 'path' is the local directory where it will be placed.
+    ================================================================
+  -->
+
+  <project path="art" name="platform/art" remote="aosp" />
+  <project path="bionic" name="platform/bionic" remote="aosp" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" remote="aosp" />
+  <project path="build/make" name="platform/build" remote="aosp">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="development" name="platform/development" remote="aosp" />
+  <project path="external/selinux" name="platform/external/selinux" remote="aosp" />
+  <project path="frameworks/av" name="platform/frameworks/av" remote="aosp" />
+  <project path="frameworks/base" name="platform/frameworks/base" remote="aosp" />
+  <project path="frameworks/native" name="platform/frameworks/native" remote="aosp" />
+  <project path="hardware/interfaces" name="platform/hardware/interfaces" remote="aosp" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" remote="aosp" />
+  <project path="system/core" name="platform/system/core" remote="aosp" />
+  <project path="system/sepolicy" name="platform/system/sepolicy" remote="aosp" />
+
+  <!-- Add other core AOSP projects here -->
+
+</manifest>
