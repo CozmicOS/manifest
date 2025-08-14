@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!--
+    ================================================================
+    PROJECT REMOVALS
+    ================================================================
+    Use this to remove a project that was included in another manifest.
+    This is useful for replacing a stock AOSP app with your own version.
+    ================================================================
+  -->
+
+  <!-- Example: Remove the stock AOSP Settings app -->
+  <remove-project name="platform/packages/apps/Settings" />
+
+  <!--
+    Then, you would add your own forked Settings app project.
+    For example, in core.xml or device.xml you could add:
+    <project path="packages/apps/MySettings" name="android_packages_apps_MySettings" remote="myos" />
+  -->
+
+</manifest>
