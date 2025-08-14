@@ -12,7 +12,7 @@
   -->
   <remote name="cozmicos"
           fetch="https://github.com/CozmicOS"
-          revision="main" />
+          revision="a15" />
 
   <remote name="aosp"
           fetch="https://android.googlesource.com/"
@@ -32,7 +32,7 @@
     ================================================================
   -->
   <default remote="cozmicos"
-           revision="main"
+           revision="a15"
            sync-j="4" />
 
   <!--
@@ -45,8 +45,7 @@
   <include name="snippets/Spacewar.xml" />
   <include name="snippets/pixel.xml" />
 
-
-
+  
   <!--
     ================================================================
     INCLUDES: Import other manifest files.
