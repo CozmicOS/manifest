@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!--
+    ================================================================
+    INCLUDES: Nothing Phone 1 (Spacewar).
+    ================================================================
+    This will download Spacewar Files.
+    ================================================================
+  --> 
   <!-- Device Tree -->
   <project path="device/nothing/Spacewar" remote="github" name="android_device_nothing_Spacewar" />
 
